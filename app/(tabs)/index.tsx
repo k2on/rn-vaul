@@ -24,6 +24,7 @@ export default function TabOneScreen() {
                 bottom: "0",
                 left: 0,
                 right: 0,
+                boxShadow: "rgba(0, 0, 0, 0.3) 0px 0px 40px",
                 }} className='bg-zinc-100 flex flex-col rounded-t-[10px] h-[96%] mt-24 fixed bottom-0 left-0 right-0'>
               <p>Content</p>
             </Drawer.Content>
