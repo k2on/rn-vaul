@@ -7,9 +7,8 @@ import { Drawer } from 'vaul';
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
       <Drawer.Root shouldScaleBackground>
-          <Drawer.Trigger>Open</Drawer.Trigger>
+          <Drawer.Trigger>Open Drawer</Drawer.Trigger>
           <Drawer.Portal>
             <Drawer.Overlay style={{ position: "fixed", inset: 0,  }} />
             <Drawer.Content style={{
@@ -30,8 +29,6 @@ export default function TabOneScreen() {
             </Drawer.Content>
           </Drawer.Portal>
         </Drawer.Root>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/index.tsx" />
     </View>
   );
 }
